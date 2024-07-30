@@ -35,8 +35,8 @@ else:
   import asyncnet,asyncdispatch, times
 import macros except floatVal
 import net  # needed for the SslContext type
-import db_common
-export db_common
+import db_connector/db_common
+export db_connector/db_common
 import strutils
 import amysql/async_varargs
 import uri

@@ -21,7 +21,7 @@ import macros
 import strformat
 import sets,hashes
 import cpuinfo
-import db_common
+import db_connector/db_common
 import ./private/format
 import logging
 

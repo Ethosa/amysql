@@ -1,4 +1,4 @@
-import db_common
+import db_connector/db_common
 import ./quote
 
 proc dbFormat*(formatstr: SqlQuery, args: varargs[string] | seq[string]): string =
